@@ -106,7 +106,14 @@
       <h2>Availability & Pricing</h2>
 
       <img src="stripe-map.png" style="display: inline-block;" />
-      <p>VISA / Mastercard / American Express - 2.9% + 30c a transaction</p>
+      <ul>
+        <li>VISA / Mastercard / American Express with fee 2.9% + 30c a transaction</li>
+        <li>Bitcoins support</li>
+        <li>However it doesn't have PayPal integration</li>
+      </ul>
+      <p></p>
+      <p></p>
+      <p></p>
     </div>
 
     <div>
@@ -179,7 +186,7 @@
     <div>
       <h2>Stripe checkout</h2>
 
-      <form action="#" method="POST">
+      <form action="#" method="POST" style="padding-top: 100px;">
         <script
           src="https://checkout.stripe.com/checkout.js"
           class="stripe-button"
@@ -199,8 +206,8 @@
       <ul>
         <li>Libraries for Ruby, Python, PHP, Java, Node.js, Go...</li>
         <li>36 meteor packages on Atmosphere. The most popular is <pre>mrgalaxy:stripe</pre> (14,871 instals). It based on the official Node.js library</li>
+        <li>Simple, intuitive and flexible API</li>
         <li>Needs to wrap asynchronous calls on server in <pre>Meteor.bindEnvironment()</pre> or <pre>Meteor.wrapAsync()</pre> etc</li>
-        <li></li>
       </ul>
     </div>
 
@@ -216,6 +223,10 @@
       <h2>Testing</h2>
 
       <img src="stripe-cards.png" style="display: inline-block;" />
+
+      <p>
+        Be aware that testing webhooks without server is a bit complicated
+      </p>
     </div>
 
     <div>
@@ -235,9 +246,14 @@
       <h2>Conclusions</h2>
 
       <ul>
-        <li>...</li>
-        <li>...</li>
-      </ul>
+        <h3>Advantages</h3>
+        <li>The most tending payment service with brand environment and support</li>
+        <li>Do a lot of work by itself</li>
+
+        <h3>Disadvantages</h3>
+        <li>Doesn't have PayPal integration</li>
+        <li>Hasn't represented in all countries</li>
+        <li>Some security issues</li>
 
     </div>
   </div>
