@@ -10,3 +10,19 @@ body {
   padding: 0;
 
 }
+
+img {
+  width: 100%;
+}
+
+ul {
+  text-align: left;
+  display: inline-block;
+}
+
+.logo {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  margin-bottom: -8px;
+}
