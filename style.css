@@ -5,9 +5,18 @@ div {
 }
 
 body {
+  font-family: Camphor,Open Sans,Segoe UI,sans-serif;
+  font-size: 200%;
+
   text-align: center;
   margin: 0;
   padding: 0;
+
+}
+
+input {
+  font-size: 100%;
+  margin-bottom: 16px;
 
 }
 
@@ -15,6 +24,9 @@ img {
   display: inline-block;
   max-width: 100%;
   max-height: 600px;
+
+  margin-bottom: 16px;
+
 }
 
 ul {
@@ -22,14 +34,22 @@ ul {
   display: inline-block;
 }
 
+li {
+  margin-bottom: 16px;
+
+}
+
 img.logo {
   display: inline-block;
-  height: 40px;
-  width: 40px;
-  margin-bottom: -8px;
+  height: 80px;
+  width: 80px;
+  margin-bottom: -16px;
 }
 
 div.slider {
+  padding-top: 0px;
+  margin-top: 0px;
+  
   display: inline-block;
   max-width: 80%;
 
@@ -39,4 +59,10 @@ h2 {
   background-color: black;
   color: white;
   padding: 30px;
+
+
+}
+
+li pre {
+  display: inline-block;
 }
